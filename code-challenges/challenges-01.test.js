@@ -15,7 +15,7 @@ const addOne = (arr) => {
   });
   return newArr;
 };
-
+// Colloborated with Aloysious, Patrick J, Kassie
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
 
@@ -31,7 +31,7 @@ const addExclamation = (arr) => {
   });
   return anotherArr;
 };
-
+// Colloborated with Aloysious, Patrick J, Kassie
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 3
 
