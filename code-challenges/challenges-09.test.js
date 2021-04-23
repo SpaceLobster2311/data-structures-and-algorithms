@@ -141,13 +141,7 @@ hasChildrenValues(characters, 'Sansa') will return false
 ------------------------------------------------------------------------------------------------ */
 
 const hasChildrenValues = (arr, character) => {
-  let answer = Object.values(arr, character);
-  if (answer.children !== true){
-    return ;
-  }
-  if(answer.children !== false){
-    return false;
-  }
+  
   // Solution code here..
 };
 
