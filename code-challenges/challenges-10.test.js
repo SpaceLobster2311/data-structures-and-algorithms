@@ -147,7 +147,10 @@ const errands = [
 ];
 
 const howManyTreats = (arr) => {
+
+  return arr[2].items[1].quantity;
   // Solution code here...
+  // learned in code challenge.
 };
 
 /* ------------------------------------------------------------------------------------------------
