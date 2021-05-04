@@ -41,7 +41,10 @@ Use `forEach` to loop over the input array. The modified strings should each be 
 ------------------------------------------------------------------------------------------------ */
 
 const allUpperCase = (arr) => {
+  let newArr = [];
+  arr.forEach(x => newArr.push(x.toUpperCase()));
   // Solution code here...
+  return newArr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -49,16 +52,20 @@ CHALLENGE 4
 
 Write a function named `greeting` that takes in a single string and returns the string in all uppercase letters, and followed by an "!".
 
-Then, write a function named `speaker` that takes in an array of strings and a callback function. 
+Then, write a function named `speaker` that takes in an array of strings and a callback function.
 
-Use `forEach` to build a new array of strings, each string modified by the callback. Return the new array. 
+Use `forEach` to build a new array of strings, each string modified by the callback. Return the new array.
 ------------------------------------------------------------------------------------------------ */
 
 const greeting = (word) => {
-  // Solution code here...
+  let upper = `${word.toUpperCase()}!`;
+  return upper;
 };
 
 const speaker = (words, callback) => {
+  let answer = [];
+  words.forEach(answer.push(greeting(words)));
+  return answer;
   // Solution code here...
 };
 
