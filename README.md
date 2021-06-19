@@ -18,3 +18,4 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 
 ![Array-Reverse](./array-reverse/ArrRevWB.png)
 ![Array-Shift](./javascript/array-shift/arrayshift.png)
+![Binary-Search](./javascript/array-binary-search/binarySearch.png)
