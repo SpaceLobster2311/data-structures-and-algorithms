@@ -18,4 +18,15 @@ const list = new LinkedList();
 console.log(list);
 
 
+function insert(value){
+  this.head = value;
+}
+function includes(value){
+  if(value === this.value){
+    return true;
+  }
+}
 
+function toString {
+  
+}
